@@ -5,9 +5,7 @@ def population_variance():
     n = input('Enter numbers space seperated: ')
     m = [float(i) for i in n.split()]
     res = 0
-    print(m)
     mean = sum(m) / len(m)
-    print(mean)
     for num in m:
         res = round(res, 2) + pow(num - round(mean, 2), 2)
     population_var = round(res / len(m), 2)
