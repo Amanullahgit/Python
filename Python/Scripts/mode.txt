@@ -1,1 +1,0 @@
-gmode=amode=m
